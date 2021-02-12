@@ -1,3 +1,4 @@
+## This is my fork with working Arduino examples. I wonder why nobody already complained about non-working examples. For example: there is no sensors/Si7021 stuff. The Si7021 stuff you find in internet does have different classes or miss the functions used by the AskSinPP code. There is no init(), measure(), temperature or humidity function in these Si7021 classes. So I used Adafruit as base and added the missing functions.
 
 # AskSin++  ![.github/workflows/build-sketches.yml](https://github.com/pa-pa/AskSinPP/workflows/.github/workflows/build-sketches.yml/badge.svg)
 
